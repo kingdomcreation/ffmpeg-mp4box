@@ -2,7 +2,7 @@ FROM jrottenberg/ffmpeg
 
 ENTRYPOINT  []
 
-ENV     MP4BOX_VERSION=v0.6.1
+ENV     MP4BOX_VERSION=v0.7.1
 
 RUN      buildDeps="build-essential \
                     fakeroot \
